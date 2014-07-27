@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+</head>
+<body>
+	<div id="big-wrapper">
+		<div id="topper">
+			<?php $upMsg = " you are welcome to my <b>Home</b> page!"; ?>
+			<?php 
+				$date = date("H");
+				$second = date("m");
+			
+				if (($date < 12) && ($second < 59)){
+					echo "Good Morning,{$upMsg}";
+				}elseif ($date < 17){
+					echo "Good Afternoon,{$upMsg}";
+				}else{
+					echo "Good Evening,{$upMsg}";
+				}
+			?>
+		</div>
+		<div id="header">
+			<div id="float_head_img">	
+				<img src="images/float.png" height="172px" width="185px" />
+			</div>
+			<div id="float_head_p">
+				<p>I can do the work!</p>
+				<h3>...and you, reap the <blink>rewards</blink>!</h3>	
+				<br />
+				<ul>
+					<li>Home</li>
+					<li>Services</li>
+					<li>About</li>
+					<li>Contact</li>
+					<li>Prices</li>
+					<li>Advantages</li>
+				</ul>
+			</div>	
+		</div>
+		<div id="clearer"></div>
+		<div id="part1">	
+			<h2 class="bg-blues">Quick Links</h2>
+			<ul type="square" class="bg-white">
+				<li>Home</li>
+				<br />
+				<li>Services
+					<ul class="inside">
+						<li>Web Design and Development</li>
+						<li>Graphics Design</li>
+						<li>Logo and Coperate stationery design</li>
+						<li>Mobile Website</li>
+						<li>application Development</li>
+						<li>Search Engine Optimization [SEO]</li>
+					</ul>
+				</li>
+				<br />
+				<li>About</li>
+				<br />
+				<li>Price
+					<ul class="inside">
+						<li>Web Design and Development</li>
+						<li>Graphics Design</li>
+						<li>Logo and Coperate stationery design</li>
+						<li>Mobile Website</li>
+						<li>application Development</li>
+						<li>Search Engine Optimization [SEO]</li>
+					</ul>
+				</li>
+				<br />
+				<li>Contact
+					<ul class="inside">
+						<li>Home</li>
+						<li>Mobile</li>
+						<li>Message</li>
+						<li>Socail Plugins</li>
+					</ul>
+				</li>
+				<br />
+				<li>Advantage</li>
+			</ul>	
+		</div>
+		<div id="part2">
+			
+			<div id="part21">
+				<p>If you desire excellence, choose me; because...</p>
+				<h2>I provide</h2>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/high-end-customization.png" />
+				</div>
+				<h2>High End Customization</h2>
+				<p>I am a website builder agency serving a global clientele, with tailor services at extremely affordable rates.</p>
+			</div>
+			<div id="part22">
+				
+				<div id="">
+					<img src="images/adherence-quality-standard.png" />
+				</div>
+				<div id="">
+					<h1>Adherence to Quality Standards</h1>
+					<p>I provide value for money and never compromise on quality. This enables me to strictly adhere to industry standards well as the  expectations of my clients</p>
+				</div>
+				<div id="clearer"></div>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/guaranteed-satisfaction.png" />
+				</div>
+				<div id="">
+					<h1>Guaranteed Satisfaction</h1>
+					<p>I cater to a large, satisfied clientele in Nigeria as well as overseas in USA, UK, Canada and many other countries, building long term relationships with each and every client.</p>
+				</div>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/dedicated-professionals.png" />
+				</div>
+				<div id="">
+					<h1>Dedicated Professionals</h1>
+					<p>My expert professionals are committed to excellence. For every project undertaken, distinctive strategies are built, based on the cliests' requirements, to deliver the right solutions.</p>
+				</div>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/defined-turn.png" />
+				</div>
+				<div id="">
+					<h1>Defined Turnaround Time</h1>
+					<p>My expertise enables me to deliver projects within a define turn around time.</p>
+				</div>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/continuous-client.png" />
+				</div>
+				<div id="">
+					</h1>Continuous Client Interaction</h1>
+					<p>I ensure continuous client interaction with short response time so that you can easily track project progress.</p>
+				</div>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/technological-advancements.png" />
+				</div>
+				<div id="">
+					<h1>Technology Advancements</h1>
+					<p>My futuristic outlook continues to inspire me to pursue excellence in whatever I do through efficient incorperation of latect technological advancements.</p>
+				</div>
+			</div>
+			<div id="part22">
+				<div id="">
+					<img src="images/icon.png" />
+				</div>
+				<div id="">
+					<h1>Strictly Confidentiality</h1>
+					<p>I never share your project details with other clients but keet it strictly cofidetial.</p>
+				</div>
+			</div>
+		</div>
+			<div id="part3">
+				<h2 class="bg-blues">Sevices</h2>
+				<ul class="bg-white">
+					<ul type="square" class="inside">
+						<li>Web Design and Development</li>
+						<li>Graphics Design</li>
+						<li>Logo and Coperate stationery design</li>
+						<li>Mobile Website</li>
+						<li>application Development</li>
+						<li>Search Engine Optimization [SEO]</li>
+					</ul>
+				</ul>
+				<h2 class="bg-blues">Other Sevices</h2>
+				<ul class="bg-white">
+					<ul type="square" class="inside">
+						<li>Web Design and Development</li>
+						<li>Graphics Design</li>
+						<li>Logo and Coperate stationery design</li>
+						<li>Mobile Website</li>
+						<li>application Development</li>
+						<li>Search Engine Optimization [SEO]</li>
+					</ul>
+				</ul>
+			</div>
+		<div id="clearer"></div>
+		<div id="foot">
+			<p>Quickly get this geek <a href="">contacted</a>! Or by mobile combination of key pads: +234-706-267-1144</p>
+			<div id="footpad">
+				<u class="padFloat">
+					<li>Home</li>
+					<li>About</li>
+					<li>Services</li>
+				</ul>
+				<ul class="padFloat">
+					<li>php</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+				<ul class="padFloat">
+					<li>Service</li>
+					<li>Advantages</li>
+					<li>Move to top....</li>
+				</ul>
+			</div>
+			<p>Copyright TripKinsola <?php echo date("Y"); ?>, All Right reserved.</p>
+		</div>
+	</div>
+</body>
+</html>
