@@ -45,7 +45,7 @@ a{
 }
 #wider{
 	background:blue;
-	height:100px;
+	height:100px auto;
 	width:auto;
 }
 #header{
@@ -74,11 +74,8 @@ a{
 	-webkit-transition:-webkit-transform 2s, opacity 2s, color 2s, width 2s, height 2s;
 }
 #float_head_p:hover{
-	-webkit-transform: rotate(360deg);
 	opacity: 1;
 	color:blue;
-	width:460px;
-	height:150px
 	font-weight:bold;
 }
 #searcher{
